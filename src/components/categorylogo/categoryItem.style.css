@@ -1,0 +1,9 @@
+.category-logo-section{
+    width: 100%;
+    height: 5rem;
+}
+.category-logo-container{
+    /* background-color: #ff4d2d; */
+    background-color: #00e676;
+    border-radius: 5px;
+}

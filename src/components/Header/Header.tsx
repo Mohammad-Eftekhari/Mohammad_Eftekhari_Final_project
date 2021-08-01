@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="my-header d-flex justify-content-between align-items-center px-4">
       <div className="header-logo">
-        <h2>روشان</h2>
+        <h1>روشان</h1>
       </div>
       <div className="header-search-box">
         <div className="search-icon">

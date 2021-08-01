@@ -1,66 +1,72 @@
 @font-face {
-    font-family: "Yekan";
-    src: url("../../assets/fonts/Yekan.ttf") format("truetype");
-  }
-  
-  .my-header {
-    width: 100%;
-    height: 4rem;
-    box-shadow: 3px 0 15px #dddddd;
-  }
-  .header-logo {
-    font-family: "Yekan";
-    color: #ff4d2d;
-    cursor: pointer;
-  }
-  .header-search-box {
-    position: relative;
-  }
-  .search-icon {
-    position: absolute;
-    width: 2rem;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #9c9c9c;
-  }
-  .header-search-box > input {
-    width: 20rem;
-    height: 2.4rem;
-    border-radius: 5px;
-    /* background-color: #F0F0F1; */
-    background-color: #dddddd;
-    border: none;
-    padding-right: 2rem;
-    outline: none;
-  }
-  
-  .header-search-box > input::placeholder {
-    color: #9c9c9c;
-    font-family: "Yekan";
-  }
-  
-  .header-search-box > input:focus {
-    outline: none;
-    box-shadow: 0 0 7px #9c9c9c;
-  }
-  
-  .header-actions {
-    width: 6rem;
-  }
-  .header-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #d4d4d4;
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 50%;
-    color: #424242;
-  }
-  .header-icon:hover{
-    border: 1px solid #424242;
-    cursor: pointer;
-  }
-  
+  font-family: "Yekan";
+  src: url("../../assets/fonts/Yekan.ttf") format("truetype");
+}
+
+.my-header {
+  width: 100%;
+  height: 4rem;
+  box-shadow: 3px 0 15px #dddddd;
+  background: rgb(0, 178, 72);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 178, 72, 1) 0%,
+    rgba(0, 230, 118, 1) 72%,
+    rgba(102, 255, 166, 1) 100%
+  );
+}
+.header-logo {
+  font-family: "Yekan";
+  color: #333333;
+  cursor: pointer;
+}
+.header-search-box {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  width: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9c9c9c;
+}
+.header-search-box > input {
+  width: 20rem;
+  height: 2.4rem;
+  border-radius: 5px;
+  /* background-color: #F0F0F1; */
+  background-color: #dddddd;
+  border: none;
+  padding-right: 2rem;
+  outline: none;
+}
+
+.header-search-box > input::placeholder {
+  color: #9c9c9c;
+  font-family: "Yekan";
+}
+
+.header-search-box > input:focus {
+  outline: none;
+  box-shadow: 0 0 7px #9c9c9c;
+}
+
+.header-actions {
+  width: 6rem;
+}
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d4d4d4;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  color: #424242;
+}
+.header-icon:hover {
+  border: 1px solid #424242;
+  cursor: pointer;
+}
