@@ -2,7 +2,7 @@ import React from 'react'
 import './Category.style.css'
 import {FaBars} from 'react-icons/fa'
 
-const Category = () => {
+const CategorySection = () => {
     return (
         <div className="category-container">
             <div className="category">
@@ -16,4 +16,4 @@ const Category = () => {
     )
 }
 
-export default Category
+export default CategorySection

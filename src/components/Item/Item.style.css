@@ -1,0 +1,38 @@
+.item {
+    min-height: 18rem;
+    background-color: #ffffff;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px #d6d6d6;
+  }
+  .item-image {
+    width: 100%;
+    height: 10rem;
+    background-color: #bbbbbb;
+    border-radius: 5px 5px 0 0;
+  }
+  .item-image > img {
+    width: 100%;
+    height: 100%;
+  }
+  .item-info {
+    padding: 0.6rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .item-title{
+    font-size: .9em;
+  }
+  .item-price {
+    margin-top: 1rem;
+  }
+  .addToCardBtn{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #00E676;
+  }
+  
