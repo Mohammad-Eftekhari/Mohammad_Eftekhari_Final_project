@@ -1,8 +1,6 @@
 import React from "react";
 import "./ItemSection.style.css";
-import { Container, Row, Col } from "react-bootstrap";
-import pic from "../../assets/images/550.png";
-import { FaPlus } from "react-icons/fa";
+import { Container, Row} from "react-bootstrap";
 import Item from "../Item/Item";
 
 interface IItemSection {
@@ -18,6 +16,18 @@ const ItemSection: React.FC<IItemSection> = (props) => {
       <div className="item-section-container">
         <Container>
           <Row className="d-flex align-items-center justify-content-center">
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
+            <Item title={"کروسان پچ پچ"} value={150000}/>
             <Item title={"کروسان پچ پچ"} value={150000}/>
             <Item title={"کروسان پچ پچ"} value={150000}/>
             <Item title={"کروسان پچ پچ"} value={150000}/>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
-import Category from "./components/category/CategorySection";
+import Category from "./components/categorySection/CategorySection";
 import Carousels from "./components/Carousels/Carousels";
 import ItemSection from "./components/item-section/ItemSection";
 import CategoryLogo from "./components/categorylogo/CategoryLogo";

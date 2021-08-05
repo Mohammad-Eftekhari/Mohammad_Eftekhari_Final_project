@@ -1,4 +1,13 @@
-.category-page-container {
-  width: 100%;
-  height: calc(100% - 15rem);
+.category-page-container{
+    /* min-height: 100%; */
+}
+
+.side-category{
+    min-height: 100%;
+    width: 16rem;
+    text-align: right;
+    padding: 0.8rem;
+}
+.category-item-section-container{
+    min-height: 100%;
 }

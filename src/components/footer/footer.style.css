@@ -1,10 +1,10 @@
 .footer-container {
   min-height: 15rem;
+  margin-top: 1rem;
   border-top: 1px solid rgb(196, 196, 196);
   background-color: #dddddd;
 }
-.footer-menu-container {
-}
+
 .footer-logo-container {
   padding: 1rem;
 }
@@ -34,16 +34,15 @@
 /* .footer-icons > ul > li > a:hover {
   color: #00e676;
 } */
-.twitter:hover{
-    color: #1A91DA;
+.twitter:hover {
+  color: #1a91da;
 }
-.insta:hover{
-    color: #ff4e83;
+.insta:hover {
+  color: #ff4e83;
 }
-.github:hover{
-    color: #2b2b2b;
+.github:hover {
+  color: #2b2b2b;
 }
-.linkedin:hover{
-    color: #005e99;
+.linkedin:hover {
+  color: #005e99;
 }
-
